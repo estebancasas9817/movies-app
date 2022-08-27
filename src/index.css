@@ -1,13 +1,55 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;500&display=swap');
+:root {
+	--color-red: #fc4747;
+	--color-white: #ffffff;
+	--color-dark-blue-primary: #10141e;
+	--color-dark-blue-secondary: #161d2f;
+	--color-light-blue: #fc4747;
+
+	--heading-large: 3.2rem;
+	--heading-medium: 2.4rem;
+	--heading-small: 2.4rem;
+	--heading-extra-small: 1.8rem;
+	--body-medium: 1.5rem;
+	--body-small: 1.3rem;
+	--default-font-size: 1.6rem;
+
+	--typo: 'Outfit', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*,
+*::after,
+*::before {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%; /* * 1rem = 10px; 10px/16 = 62.5   */
+	scroll-behavior: smooth;
+}
+
+body {
+	font-size: var(--default-font-size);
+	font-family: var(--typo);
+	position: relative;
+	background-color: var(--color-dark-blue-primary);
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+button {
+	border: none;
+	cursor: pointer;
+	background-color: transparent;
+}
+
+input {
+	background-color: transparent;
+	border-left: none;
+	border-right: none;
 }
