@@ -8,4 +8,9 @@ export const SignButtonStyle = styled.button`
 	border-radius: 5px;
 	font-size: var(--body-medium);
 	font-weight: 300;
+
+	:hover {
+		background-color: var(--color-white);
+		color: #000;
+	}
 `;

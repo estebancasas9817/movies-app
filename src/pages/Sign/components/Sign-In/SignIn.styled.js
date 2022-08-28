@@ -1,5 +1,12 @@
 import styled from 'styled-components';
 
+export const LogoContainer = styled.div`
+	position: absolute;
+	top: 20rem;
+	left: 50%;
+	transform: translate(-50%, -50%);
+`;
+
 export const SignContainer = styled.div`
 	width: 40rem;
 	min-height: 37.4rem;
@@ -10,10 +17,6 @@ export const SignContainer = styled.div`
 	transform: translate(-50%, -50%);
 	-webkit-transform: translate(-50%, -50%);
 	padding: 3.2rem;
-`;
-export const FormContainer = styled.form`
-	display: flex;
-	flex-direction: column;
 `;
 
 export const SignTitle = styled.h1`
