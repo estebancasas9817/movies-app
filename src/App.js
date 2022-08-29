@@ -1,6 +1,5 @@
 import { Navigate, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Icons from './components/Icons/Icons';
 import Home from './pages/Home/components/Home/Home';
 import SignIn from './pages/Sign/components/Sign-In/SignIn';
 function App() {

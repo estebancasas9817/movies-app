@@ -6,3 +6,4 @@ export const HomeContainer = styled.div`
 	padding: 3.2rem 0 3.2rem 3.2rem;
 	height: 100vh;
 `;
+export const MainContainer = styled.div``;
