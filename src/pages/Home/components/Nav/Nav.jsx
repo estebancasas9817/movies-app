@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import Icons from '../../../../components/Icons/Icons';
 import { ImgContainer, ItemStyle, Liststyle, NavStyle } from './Nav.styled';
-
+import avatar from '../../../../assets/image-avatar.png';
 const Nav = () => {
 	return (
 		<NavStyle>
@@ -48,7 +48,7 @@ const Nav = () => {
 					</NavLink>
 				</ItemStyle>
 			</Liststyle>
-			<ImgContainer />
+			<ImgContainer url={`url(${avatar})`} />
 		</NavStyle>
 	);
 };
