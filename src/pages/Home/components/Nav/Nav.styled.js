@@ -8,6 +8,7 @@ export const NavStyle = styled.nav`
 	align-items: center;
 	border-radius: 2rem;
 	justify-content: space-between;
+	height: 75vh;
 `;
 export const Liststyle = styled.ul`
 	display: flex;
@@ -24,8 +25,12 @@ export const ItemStyle = styled.li`
 `;
 
 export const ImgContainer = styled.img`
-	background-image: url(../../../../assets/image-avatar.png);
+	background-image: ${(props) => props.url};
 	width: 4.8rem;
 	height: 4.8rem;
 	border-radius: 50%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 `;
